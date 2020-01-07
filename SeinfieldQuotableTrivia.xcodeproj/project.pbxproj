@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306A05C023C420B50096426B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A05BF23C420B50096426B /* AppDelegate.swift */; };
+		306A05C223C420B50096426B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A05C123C420B50096426B /* SceneDelegate.swift */; };
+		306A05C423C420B50096426B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A05C323C420B50096426B /* ViewController.swift */; };
+		306A05C723C420B50096426B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306A05C523C420B50096426B /* Main.storyboard */; };
+		306A05C923C420B70096426B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306A05C823C420B70096426B /* Assets.xcassets */; };
+		306A05CC23C420B70096426B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306A05CA23C420B70096426B /* LaunchScreen.storyboard */; };
+		306A05D423C4467F0096426B /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A05D323C4467F0096426B /* Quote.swift */; };
+		306A05D623C4478F0096426B /* QuoteBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A05D523C4478F0096426B /* QuoteBank.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		306A05BC23C420B50096426B /* SeinfieldQuotableTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeinfieldQuotableTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		306A05BF23C420B50096426B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		306A05C123C420B50096426B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		306A05C323C420B50096426B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		306A05C623C420B50096426B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		306A05C823C420B70096426B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306A05CB23C420B70096426B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		306A05CD23C420B70096426B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306A05D323C4467F0096426B /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		306A05D523C4478F0096426B /* QuoteBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteBank.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306A05B923C420B50096426B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306A05B323C420B50096426B = {
+			isa = PBXGroup;
+			children = (
+				306A05BE23C420B50096426B /* SeinfieldQuotableTrivia */,
+				306A05BD23C420B50096426B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		306A05BD23C420B50096426B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306A05BC23C420B50096426B /* SeinfieldQuotableTrivia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		306A05BE23C420B50096426B /* SeinfieldQuotableTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				306A05BF23C420B50096426B /* AppDelegate.swift */,
+				306A05C123C420B50096426B /* SceneDelegate.swift */,
+				306A05D323C4467F0096426B /* Quote.swift */,
+				306A05D523C4478F0096426B /* QuoteBank.swift */,
+				306A05C323C420B50096426B /* ViewController.swift */,
+				306A05C523C420B50096426B /* Main.storyboard */,
+				306A05C823C420B70096426B /* Assets.xcassets */,
+				306A05CA23C420B70096426B /* LaunchScreen.storyboard */,
+				306A05CD23C420B70096426B /* Info.plist */,
+			);
+			path = SeinfieldQuotableTrivia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306A05BB23C420B50096426B /* SeinfieldQuotableTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306A05D023C420B70096426B /* Build configuration list for PBXNativeTarget "SeinfieldQuotableTrivia" */;
+			buildPhases = (
+				306A05B823C420B50096426B /* Sources */,
+				306A05B923C420B50096426B /* Frameworks */,
+				306A05BA23C420B50096426B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeinfieldQuotableTrivia;
+			productName = SeinfieldQuotableTrivia;
+			productReference = 306A05BC23C420B50096426B /* SeinfieldQuotableTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		306A05B423C420B50096426B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jaheed Haynes";
+				TargetAttributes = {
+					306A05BB23C420B50096426B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 306A05B723C420B50096426B /* Build configuration list for PBXProject "SeinfieldQuotableTrivia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 306A05B323C420B50096426B;
+			productRefGroup = 306A05BD23C420B50096426B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306A05BB23C420B50096426B /* SeinfieldQuotableTrivia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306A05BA23C420B50096426B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306A05CC23C420B70096426B /* LaunchScreen.storyboard in Resources */,
+				306A05C923C420B70096426B /* Assets.xcassets in Resources */,
+				306A05C723C420B50096426B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306A05B823C420B50096426B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306A05D423C4467F0096426B /* Quote.swift in Sources */,
+				306A05C423C420B50096426B /* ViewController.swift in Sources */,
+				306A05C023C420B50096426B /* AppDelegate.swift in Sources */,
+				306A05C223C420B50096426B /* SceneDelegate.swift in Sources */,
+				306A05D623C4478F0096426B /* QuoteBank.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		306A05C523C420B50096426B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306A05C623C420B50096426B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		306A05CA23C420B70096426B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306A05CB23C420B70096426B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		306A05CE23C420B70096426B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		306A05CF23C420B70096426B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		306A05D123C420B70096426B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTN2293JXM;
+				INFOPLIST_FILE = SeinfieldQuotableTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jaheed.SeinfieldQuotableTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		306A05D223C420B70096426B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTN2293JXM;
+				INFOPLIST_FILE = SeinfieldQuotableTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jaheed.SeinfieldQuotableTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306A05B723C420B50096426B /* Build configuration list for PBXProject "SeinfieldQuotableTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306A05CE23C420B70096426B /* Debug */,
+				306A05CF23C420B70096426B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306A05D023C420B70096426B /* Build configuration list for PBXNativeTarget "SeinfieldQuotableTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306A05D123C420B70096426B /* Debug */,
+				306A05D223C420B70096426B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 306A05B423C420B50096426B /* Project object */;
+}
