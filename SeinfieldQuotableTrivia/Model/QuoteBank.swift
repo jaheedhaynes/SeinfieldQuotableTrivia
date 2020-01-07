@@ -20,7 +20,7 @@ class QuoteBank{
         
         list.append(Quote(quoteText: "You made a man cry? I've never made a man cry. I even kicked a guy in the groin once and he didn't cry.", choiceA: "Jerry", choiceB: "Elaine", choiceC: "George", choiceD: "Kramer", answer: 2))
         
-        list.append(Quote(quoteText: "Please, don't insult me -- no one's a bigger idiot than me.", choiceA: "Jerry" , choiceB: "Elaine" , choiceC: "George" , choiceD: "Kramer", answer: 4))
+        list.append(Quote(quoteText: "Please, don't insult me -- no one's a bigger idiot than me.", choiceA: "Jerry" , choiceB: "Elaine" , choiceC: "George" , choiceD: "Kramer", answer: 3))
         
         list.append(Quote(quoteText: "People don't turn down money, it's what separates us from the animals!", choiceA: "Jerry" , choiceB: "Elaine", choiceC: "George" , choiceD: "Kramer", answer: 1))
   //--------------------------------------
