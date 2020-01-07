@@ -16,4 +16,4 @@ let challenge = "hard"
 
 ```
 
-![home screen](Assests/)
+![home screen](Assets/homeScreen1.png)
