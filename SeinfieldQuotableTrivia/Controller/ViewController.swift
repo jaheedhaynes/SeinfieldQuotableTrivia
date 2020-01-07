@@ -27,6 +27,10 @@ class ViewController: UIViewController {
     var score: Int = 0
     var selectedAnswer: Int = 0
     
+    func adjust() {
+        quoteLabel.adjustsFontSizeToFitWidth = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateQuote()
@@ -57,6 +61,8 @@ class ViewController: UIViewController {
     func updateQuote(){
         
         if quoteNumber <= allQuestions.list.count - 1{
+            
+            adjust()
 
             quoteLabel.text = allQuestions.list[quoteNumber].question
             optionA.setTitle(allQuestions.list[quoteNumber].optionA, for: UIControl.State.normal)
