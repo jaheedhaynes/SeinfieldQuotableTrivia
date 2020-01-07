@@ -37,6 +37,9 @@
                                         <rect key="frame" x="148" y="13" width="119" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button" image="Seinfeld-small"/>
+                                        <connections>
+                                            <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Na0-9y-WIy"/>
+                                        </connections>
                                     </button>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pun-Rs-zJc">
                                         <rect key="frame" x="0.0" y="59" width="20" height="14"/>

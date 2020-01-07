@@ -33,6 +33,10 @@ class ViewController: UIViewController {
         updateUI()
     }
 
+    @IBAction func resetButton(_ sender: UIButton) {
+        restartGame()
+    }
+    
     
     @IBAction func answerPressed(_ sender: UIButton) {
         if sender.tag == selectedAnswer {

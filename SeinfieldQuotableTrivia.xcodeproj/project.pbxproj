@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3045C8CB23C4E4CD009493F3 /* QuoteModelStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3045C8CA23C4E4CD009493F3 /* QuoteModelStruct.swift */; };
+		3045C8CF23C4E541009493F3 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3045C8CE23C4E541009493F3 /* data.json */; };
 		306A05C023C420B50096426B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A05BF23C420B50096426B /* AppDelegate.swift */; };
 		306A05C223C420B50096426B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A05C123C420B50096426B /* SceneDelegate.swift */; };
 		306A05C423C420B50096426B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A05C323C420B50096426B /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3045C8CA23C4E4CD009493F3 /* QuoteModelStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModelStruct.swift; sourceTree = "<group>"; };
+		3045C8CE23C4E541009493F3 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		306A05BC23C420B50096426B /* SeinfieldQuotableTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeinfieldQuotableTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		306A05BF23C420B50096426B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		306A05C123C420B50096426B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3045C8CC23C4E503009493F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3045C8CA23C4E4CD009493F3 /* QuoteModelStruct.swift */,
+				306A05D323C4467F0096426B /* Quote.swift */,
+				306A05D523C4478F0096426B /* QuoteBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3045C8CD23C4E50C009493F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				306A05C323C420B50096426B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3045C8D023C4E546009493F3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3045C8CE23C4E541009493F3 /* data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		306A05B323C420B50096426B = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +92,10 @@
 			children = (
 				306A05BF23C420B50096426B /* AppDelegate.swift */,
 				306A05C123C420B50096426B /* SceneDelegate.swift */,
-				306A05D323C4467F0096426B /* Quote.swift */,
-				306A05D523C4478F0096426B /* QuoteBank.swift */,
-				306A05C323C420B50096426B /* ViewController.swift */,
+				3045C8CC23C4E503009493F3 /* Model */,
+				3045C8CD23C4E50C009493F3 /* Controller */,
 				306A05C523C420B50096426B /* Main.storyboard */,
+				3045C8D023C4E546009493F3 /* Data */,
 				306A05C823C420B70096426B /* Assets.xcassets */,
 				306A05CA23C420B70096426B /* LaunchScreen.storyboard */,
 				306A05CD23C420B70096426B /* Info.plist */,
@@ -134,6 +164,7 @@
 				306A05CC23C420B70096426B /* LaunchScreen.storyboard in Resources */,
 				306A05C923C420B70096426B /* Assets.xcassets in Resources */,
 				306A05C723C420B50096426B /* Main.storyboard in Resources */,
+				3045C8CF23C4E541009493F3 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +178,7 @@
 				306A05D423C4467F0096426B /* Quote.swift in Sources */,
 				306A05C423C420B50096426B /* ViewController.swift in Sources */,
 				306A05C023C420B50096426B /* AppDelegate.swift in Sources */,
+				3045C8CB23C4E4CD009493F3 /* QuoteModelStruct.swift in Sources */,
 				306A05C223C420B50096426B /* SceneDelegate.swift in Sources */,
 				306A05D623C4478F0096426B /* QuoteBank.swift in Sources */,
 			);
